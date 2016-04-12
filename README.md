@@ -24,5 +24,10 @@ This repo comprises a customized static SQLite library used within Tau4Mac.
 
 - RELEASE
   - `SQLITE_OMIT_AUTOINIT`
+  > *As above.*
+
   - `SQLITE_ENABLE_API_ARMOR`
+  > *As above.*
+
   - `SQLITE_USE_URI`
+  > *As above.*
