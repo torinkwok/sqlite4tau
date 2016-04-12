@@ -7,7 +7,7 @@ This repo comprises a customized static SQLite library used within Tau4Mac.
 
 sqlite4tau uses the *amalgamation version* of SQLite source code, which is officially recommended for all applications.
 
-## Involved Compilation Options in This Repo
+## Involved Compilation Options in sqlite4tau
 
 - DEBUG
   - `SQLITE_OMIT_AUTOINIT`
