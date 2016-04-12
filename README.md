@@ -1,5 +1,3 @@
-# sqlite4tau
-
 ## Summary
 
 This repo comprises a customized static SQLite library used within Tau4Mac.
