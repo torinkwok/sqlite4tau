@@ -2,7 +2,7 @@
 
 This repo comprises a customized static SQLite library used within Tau4Mac.
 
-- [SQLite source code used for this customized compilation](https://www.sqlite.org/download.html)
+- [SQLite source code (amalgamation-ver, which is officially recommended for all applications) used for this customized compilation](https://www.sqlite.org/download.html)
 - [SQLite compilation options](https://www.sqlite.org/compile.html)
 
 ## Involved Compilation Options in This Repo
