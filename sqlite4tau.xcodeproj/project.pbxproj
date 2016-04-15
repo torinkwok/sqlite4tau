@@ -7,9 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		83BCB4C81CBB8B9B008F492E /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 83BCB4C41CBB8B9B008F492E /* sqlite3.c */; settings = {ASSET_TAGS = (); }; };
-		83BCB4C91CBB8B9B008F492E /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BCB4C51CBB8B9B008F492E /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83BCB4CA1CBB8B9B008F492E /* sqlite3ext.h in Headers */ = {isa = PBXBuildFile; fileRef = 83BCB4C61CBB8B9B008F492E /* sqlite3ext.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83BCB4C81CBB8B9B008F492E /* sqlite3.c in Sources */ = {isa = PBXBuildFile; fileRef = 83BCB4C41CBB8B9B008F492E /* sqlite3.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -63,8 +61,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83BCB4C91CBB8B9B008F492E /* sqlite3.h in Headers */,
-				83BCB4CA1CBB8B9B008F492E /* sqlite3ext.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -228,6 +224,7 @@
 				LD_DYLIB_INSTALL_NAME = "";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = sqlite4tau;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
@@ -248,6 +245,7 @@
 				LD_DYLIB_INSTALL_NAME = "";
 				MACH_O_TYPE = staticlib;
 				PRODUCT_NAME = sqlite4tau;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
